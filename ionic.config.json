@@ -1,0 +1,8 @@
+{
+  "name": "RouterBug",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "id": "24485d36"
+}
