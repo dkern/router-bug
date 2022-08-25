@@ -3,8 +3,8 @@ import { RouteRecordRaw } from 'vue-router';
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '',
-    redirect: '/folder/Inbox'
+    path: '/',
+    component: () => import ('../views/LoaderPage.vue')
   },
   {
     path: '/folder/:id',
